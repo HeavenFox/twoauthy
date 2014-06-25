@@ -6,20 +6,457 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AE2C72EC1952874B00765A76 /* decode.c in Sources */ = {isa = PBXBuildFile; fileRef = AE2C72E61952874B00765A76 /* decode.c */; };
+		AE2C72ED1952874B00765A76 /* decode.c in Sources */ = {isa = PBXBuildFile; fileRef = AE2C72E61952874B00765A76 /* decode.c */; };
+		AE2C72EE1952874B00765A76 /* identify.c in Sources */ = {isa = PBXBuildFile; fileRef = AE2C72E71952874B00765A76 /* identify.c */; };
+		AE2C72EF1952874B00765A76 /* identify.c in Sources */ = {isa = PBXBuildFile; fileRef = AE2C72E71952874B00765A76 /* identify.c */; };
+		AE2C72F01952874B00765A76 /* quirc.c in Sources */ = {isa = PBXBuildFile; fileRef = AE2C72E91952874B00765A76 /* quirc.c */; };
+		AE2C72F11952874B00765A76 /* quirc.c in Sources */ = {isa = PBXBuildFile; fileRef = AE2C72E91952874B00765A76 /* quirc.c */; };
+		AE2C72F21952874B00765A76 /* version_db.c in Sources */ = {isa = PBXBuildFile; fileRef = AE2C72EB1952874B00765A76 /* version_db.c */; };
+		AE2C72F31952874B00765A76 /* version_db.c in Sources */ = {isa = PBXBuildFile; fileRef = AE2C72EB1952874B00765A76 /* version_db.c */; };
+		AE2C72F61952ACAE00765A76 /* TokenStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2C72F51952ACAE00765A76 /* TokenStorage.m */; };
+		AE2C72F71952ACAE00765A76 /* TokenStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2C72F51952ACAE00765A76 /* TokenStorage.m */; };
+		AE2C72FF1952AFB200765A76 /* RectSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2C72FA1952AFB200765A76 /* RectSelectionView.m */; };
+		AE2C73001952AFB200765A76 /* ScreenCaptureWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2C72FC1952AFB200765A76 /* ScreenCaptureWindowController.m */; };
+		AE2C73011952AFB200765A76 /* TransparentWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2C72FE1952AFB200765A76 /* TransparentWindow.m */; };
+		AE6F17D71951381500AC73F4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6F17D61951381500AC73F4 /* Cocoa.framework */; };
+		AE6F17E11951381500AC73F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE6F17DF1951381500AC73F4 /* InfoPlist.strings */; };
+		AE6F17E31951381500AC73F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6F17E21951381500AC73F4 /* main.m */; };
+		AE6F17E71951381500AC73F4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AE6F17E51951381500AC73F4 /* Credits.rtf */; };
+		AE6F17EA1951381500AC73F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6F17E91951381500AC73F4 /* AppDelegate.m */; };
+		AE6F17ED1951381500AC73F4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE6F17EB1951381500AC73F4 /* MainMenu.xib */; };
+		AE6F17EF1951381500AC73F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE6F17EE1951381500AC73F4 /* Images.xcassets */; };
+		AE6F17F61951381600AC73F4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6F17F51951381600AC73F4 /* XCTest.framework */; };
+		AE6F17F71951381600AC73F4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6F17D61951381500AC73F4 /* Cocoa.framework */; };
+		AE6F17FF1951381600AC73F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE6F17FD1951381600AC73F4 /* InfoPlist.strings */; };
+		AE6F18011951381600AC73F4 /* Two_Factor_Authenticator_MacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6F18001951381600AC73F4 /* Two_Factor_Authenticator_MacTests.m */; };
+		AE6F180B1951413800AC73F4 /* TokenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6F18091951413800AC73F4 /* TokenViewController.m */; };
+		AE6F180C1951413800AC73F4 /* TokenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE6F180A1951413800AC73F4 /* TokenViewController.xib */; };
+		AE6F181319514CBA00AC73F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6F181219514CB900AC73F4 /* Foundation.framework */; };
+		AE6F181519514CBA00AC73F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6F181419514CBA00AC73F4 /* CoreGraphics.framework */; };
+		AE6F181719514CBA00AC73F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6F181619514CBA00AC73F4 /* UIKit.framework */; };
+		AE6F181D19514CBA00AC73F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE6F181B19514CBA00AC73F4 /* InfoPlist.strings */; };
+		AE6F181F19514CBA00AC73F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6F181E19514CBA00AC73F4 /* main.m */; };
+		AE6F182319514CBA00AC73F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6F182219514CBA00AC73F4 /* AppDelegate.m */; };
+		AE6F182619514CBA00AC73F4 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6F182419514CBA00AC73F4 /* Main_iPhone.storyboard */; };
+		AE6F182919514CBA00AC73F4 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6F182719514CBA00AC73F4 /* Main_iPad.storyboard */; };
+		AE6F182C19514CBA00AC73F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6F182B19514CBA00AC73F4 /* ViewController.m */; };
+		AE6F182E19514CBA00AC73F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE6F182D19514CBA00AC73F4 /* Images.xcassets */; };
+		AE6F183419514CBA00AC73F4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6F17F51951381600AC73F4 /* XCTest.framework */; };
+		AE6F183519514CBA00AC73F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6F181219514CB900AC73F4 /* Foundation.framework */; };
+		AE6F183619514CBA00AC73F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6F181619514CBA00AC73F4 /* UIKit.framework */; };
+		AE6F183E19514CBA00AC73F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE6F183C19514CBA00AC73F4 /* InfoPlist.strings */; };
+		AE6F184019514CBA00AC73F4 /* Two_Factor_Authenticator_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6F183F19514CBA00AC73F4 /* Two_Factor_Authenticator_iOSTests.m */; };
+		AE6F184A1951582300AC73F4 /* TokenEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6F18491951582300AC73F4 /* TokenEntry.m */; };
+		AE6F184B1951582300AC73F4 /* TokenEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6F18491951582300AC73F4 /* TokenEntry.m */; };
+		AE6F184E19515ECF00AC73F4 /* NSData+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6F184D19515ECF00AC73F4 /* NSData+Additions.m */; };
+		AE6F184F19515ECF00AC73F4 /* NSData+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6F184D19515ECF00AC73F4 /* NSData+Additions.m */; };
+		AE6F1856195168A000AC73F4 /* HOTPGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6F1851195168A000AC73F4 /* HOTPGenerator.m */; };
+		AE6F1857195168A000AC73F4 /* HOTPGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6F1851195168A000AC73F4 /* HOTPGenerator.m */; };
+		AE6F1858195168A000AC73F4 /* OTPGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6F1853195168A000AC73F4 /* OTPGenerator.m */; };
+		AE6F1859195168A000AC73F4 /* OTPGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6F1853195168A000AC73F4 /* OTPGenerator.m */; };
+		AE6F185A195168A000AC73F4 /* TOTPGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6F1855195168A000AC73F4 /* TOTPGenerator.m */; };
+		AE6F185B195168A000AC73F4 /* TOTPGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6F1855195168A000AC73F4 /* TOTPGenerator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE6F17F81951381600AC73F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE6F17C9195137F300AC73F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE6F17D21951381500AC73F4;
+			remoteInfo = "Two Factor Authenticator Mac";
+		};
+		AE6F183719514CBA00AC73F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE6F17C9195137F300AC73F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE6F181019514CB900AC73F4;
+			remoteInfo = "Two Factor Authenticator iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE2C72E61952874B00765A76 /* decode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = decode.c; sourceTree = "<group>"; };
+		AE2C72E71952874B00765A76 /* identify.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = identify.c; sourceTree = "<group>"; };
+		AE2C72E81952874B00765A76 /* quirc_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quirc_internal.h; sourceTree = "<group>"; };
+		AE2C72E91952874B00765A76 /* quirc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = quirc.c; sourceTree = "<group>"; };
+		AE2C72EA1952874B00765A76 /* quirc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quirc.h; sourceTree = "<group>"; };
+		AE2C72EB1952874B00765A76 /* version_db.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = version_db.c; sourceTree = "<group>"; };
+		AE2C72F41952ACAE00765A76 /* TokenStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TokenStorage.h; path = Common/TokenStorage.h; sourceTree = "<group>"; };
+		AE2C72F51952ACAE00765A76 /* TokenStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TokenStorage.m; path = Common/TokenStorage.m; sourceTree = "<group>"; };
+		AE2C72F91952AFB200765A76 /* RectSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectSelectionView.h; sourceTree = "<group>"; };
+		AE2C72FA1952AFB200765A76 /* RectSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectSelectionView.m; sourceTree = "<group>"; };
+		AE2C72FB1952AFB200765A76 /* ScreenCaptureWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenCaptureWindowController.h; sourceTree = "<group>"; };
+		AE2C72FC1952AFB200765A76 /* ScreenCaptureWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenCaptureWindowController.m; sourceTree = "<group>"; };
+		AE2C72FD1952AFB200765A76 /* TransparentWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransparentWindow.h; sourceTree = "<group>"; };
+		AE2C72FE1952AFB200765A76 /* TransparentWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransparentWindow.m; sourceTree = "<group>"; };
+		AE6F17D31951381500AC73F4 /* Two Factor Authenticator Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Two Factor Authenticator Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE6F17D61951381500AC73F4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AE6F17D91951381500AC73F4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AE6F17DA1951381500AC73F4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AE6F17DB1951381500AC73F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AE6F17DE1951381500AC73F4 /* Two Factor Authenticator Mac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Two Factor Authenticator Mac-Info.plist"; sourceTree = "<group>"; };
+		AE6F17E01951381500AC73F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE6F17E21951381500AC73F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE6F17E41951381500AC73F4 /* Two Factor Authenticator Mac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Two Factor Authenticator Mac-Prefix.pch"; sourceTree = "<group>"; };
+		AE6F17E61951381500AC73F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AE6F17E81951381500AC73F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE6F17E91951381500AC73F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE6F17EC1951381500AC73F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AE6F17EE1951381500AC73F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AE6F17F41951381600AC73F4 /* Two Factor Authenticator MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Two Factor Authenticator MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE6F17F51951381600AC73F4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AE6F17FC1951381600AC73F4 /* Two Factor Authenticator MacTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Two Factor Authenticator MacTests-Info.plist"; sourceTree = "<group>"; };
+		AE6F17FE1951381600AC73F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE6F18001951381600AC73F4 /* Two_Factor_Authenticator_MacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Two_Factor_Authenticator_MacTests.m; sourceTree = "<group>"; };
+		AE6F18081951413800AC73F4 /* TokenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TokenViewController.h; sourceTree = "<group>"; };
+		AE6F18091951413800AC73F4 /* TokenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TokenViewController.m; sourceTree = "<group>"; };
+		AE6F180A1951413800AC73F4 /* TokenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TokenViewController.xib; sourceTree = "<group>"; };
+		AE6F181119514CB900AC73F4 /* Two Factor Authenticator iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Two Factor Authenticator iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE6F181219514CB900AC73F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AE6F181419514CBA00AC73F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AE6F181619514CBA00AC73F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AE6F181A19514CBA00AC73F4 /* Two Factor Authenticator iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Two Factor Authenticator iOS-Info.plist"; sourceTree = "<group>"; };
+		AE6F181C19514CBA00AC73F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE6F181E19514CBA00AC73F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE6F182019514CBA00AC73F4 /* Two Factor Authenticator iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Two Factor Authenticator iOS-Prefix.pch"; sourceTree = "<group>"; };
+		AE6F182119514CBA00AC73F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE6F182219514CBA00AC73F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE6F182519514CBA00AC73F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		AE6F182819514CBA00AC73F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		AE6F182A19514CBA00AC73F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE6F182B19514CBA00AC73F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE6F182D19514CBA00AC73F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AE6F183319514CBA00AC73F4 /* Two Factor Authenticator iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Two Factor Authenticator iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE6F183B19514CBA00AC73F4 /* Two Factor Authenticator iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Two Factor Authenticator iOSTests-Info.plist"; sourceTree = "<group>"; };
+		AE6F183D19514CBA00AC73F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE6F183F19514CBA00AC73F4 /* Two_Factor_Authenticator_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Two_Factor_Authenticator_iOSTests.m; sourceTree = "<group>"; };
+		AE6F18481951582300AC73F4 /* TokenEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TokenEntry.h; path = Common/TokenEntry.h; sourceTree = "<group>"; };
+		AE6F18491951582300AC73F4 /* TokenEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TokenEntry.m; path = Common/TokenEntry.m; sourceTree = "<group>"; };
+		AE6F184C19515ECF00AC73F4 /* NSData+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Additions.h"; path = "Common/NSData+Additions.h"; sourceTree = "<group>"; };
+		AE6F184D19515ECF00AC73F4 /* NSData+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Additions.m"; path = "Common/NSData+Additions.m"; sourceTree = "<group>"; };
+		AE6F1850195168A000AC73F4 /* HOTPGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOTPGenerator.h; sourceTree = "<group>"; };
+		AE6F1851195168A000AC73F4 /* HOTPGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOTPGenerator.m; sourceTree = "<group>"; };
+		AE6F1852195168A000AC73F4 /* OTPGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTPGenerator.h; sourceTree = "<group>"; };
+		AE6F1853195168A000AC73F4 /* OTPGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTPGenerator.m; sourceTree = "<group>"; };
+		AE6F1854195168A000AC73F4 /* TOTPGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOTPGenerator.h; sourceTree = "<group>"; };
+		AE6F1855195168A000AC73F4 /* TOTPGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOTPGenerator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE6F17D01951381500AC73F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6F17D71951381500AC73F4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6F17F11951381600AC73F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6F17F71951381600AC73F4 /* Cocoa.framework in Frameworks */,
+				AE6F17F61951381600AC73F4 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6F180E19514CB900AC73F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6F181519514CBA00AC73F4 /* CoreGraphics.framework in Frameworks */,
+				AE6F181719514CBA00AC73F4 /* UIKit.framework in Frameworks */,
+				AE6F181319514CBA00AC73F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6F183019514CBA00AC73F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6F183419514CBA00AC73F4 /* XCTest.framework in Frameworks */,
+				AE6F183619514CBA00AC73F4 /* UIKit.framework in Frameworks */,
+				AE6F183519514CBA00AC73F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
+		AE2C72E51952873500765A76 /* quirc */ = {
+			isa = PBXGroup;
+			children = (
+				AE2C72E61952874B00765A76 /* decode.c */,
+				AE2C72E71952874B00765A76 /* identify.c */,
+				AE2C72E81952874B00765A76 /* quirc_internal.h */,
+				AE2C72E91952874B00765A76 /* quirc.c */,
+				AE2C72EA1952874B00765A76 /* quirc.h */,
+				AE2C72EB1952874B00765A76 /* version_db.c */,
+			);
+			name = quirc;
+			sourceTree = "<group>";
+		};
+		AE2C72F81952AF9300765A76 /* ScreenCapture */ = {
+			isa = PBXGroup;
+			children = (
+				AE2C72F91952AFB200765A76 /* RectSelectionView.h */,
+				AE2C72FA1952AFB200765A76 /* RectSelectionView.m */,
+				AE2C72FB1952AFB200765A76 /* ScreenCaptureWindowController.h */,
+				AE2C72FC1952AFB200765A76 /* ScreenCaptureWindowController.m */,
+				AE2C72FD1952AFB200765A76 /* TransparentWindow.h */,
+				AE2C72FE1952AFB200765A76 /* TransparentWindow.m */,
+			);
+			name = ScreenCapture;
+			sourceTree = "<group>";
+		};
 		AE6F17C8195137F300AC73F4 = {
 			isa = PBXGroup;
 			children = (
+				AE6F184719514CCC00AC73F4 /* Common */,
+				AE6F17DC1951381500AC73F4 /* Two Factor Authenticator Mac */,
+				AE6F17FA1951381600AC73F4 /* Two Factor Authenticator MacTests */,
+				AE6F181819514CBA00AC73F4 /* Two Factor Authenticator iOS */,
+				AE6F183919514CBA00AC73F4 /* Two Factor Authenticator iOSTests */,
+				AE6F17D51951381500AC73F4 /* Frameworks */,
+				AE6F17D41951381500AC73F4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
+		AE6F17D41951381500AC73F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F17D31951381500AC73F4 /* Two Factor Authenticator Mac.app */,
+				AE6F17F41951381600AC73F4 /* Two Factor Authenticator MacTests.xctest */,
+				AE6F181119514CB900AC73F4 /* Two Factor Authenticator iOS.app */,
+				AE6F183319514CBA00AC73F4 /* Two Factor Authenticator iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE6F17D51951381500AC73F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F17D61951381500AC73F4 /* Cocoa.framework */,
+				AE6F17F51951381600AC73F4 /* XCTest.framework */,
+				AE6F181219514CB900AC73F4 /* Foundation.framework */,
+				AE6F181419514CBA00AC73F4 /* CoreGraphics.framework */,
+				AE6F181619514CBA00AC73F4 /* UIKit.framework */,
+				AE6F17D81951381500AC73F4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE6F17D81951381500AC73F4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F17D91951381500AC73F4 /* AppKit.framework */,
+				AE6F17DA1951381500AC73F4 /* CoreData.framework */,
+				AE6F17DB1951381500AC73F4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AE6F17DC1951381500AC73F4 /* Two Factor Authenticator Mac */ = {
+			isa = PBXGroup;
+			children = (
+				AE2C72F81952AF9300765A76 /* ScreenCapture */,
+				AE6F17E81951381500AC73F4 /* AppDelegate.h */,
+				AE6F17E91951381500AC73F4 /* AppDelegate.m */,
+				AE6F17EB1951381500AC73F4 /* MainMenu.xib */,
+				AE6F18081951413800AC73F4 /* TokenViewController.h */,
+				AE6F18091951413800AC73F4 /* TokenViewController.m */,
+				AE6F180A1951413800AC73F4 /* TokenViewController.xib */,
+				AE6F17EE1951381500AC73F4 /* Images.xcassets */,
+				AE6F17DD1951381500AC73F4 /* Supporting Files */,
+			);
+			path = "Two Factor Authenticator Mac";
+			sourceTree = "<group>";
+		};
+		AE6F17DD1951381500AC73F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F17DE1951381500AC73F4 /* Two Factor Authenticator Mac-Info.plist */,
+				AE6F17DF1951381500AC73F4 /* InfoPlist.strings */,
+				AE6F17E21951381500AC73F4 /* main.m */,
+				AE6F17E41951381500AC73F4 /* Two Factor Authenticator Mac-Prefix.pch */,
+				AE6F17E51951381500AC73F4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE6F17FA1951381600AC73F4 /* Two Factor Authenticator MacTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F18001951381600AC73F4 /* Two_Factor_Authenticator_MacTests.m */,
+				AE6F17FB1951381600AC73F4 /* Supporting Files */,
+			);
+			path = "Two Factor Authenticator MacTests";
+			sourceTree = "<group>";
+		};
+		AE6F17FB1951381600AC73F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F17FC1951381600AC73F4 /* Two Factor Authenticator MacTests-Info.plist */,
+				AE6F17FD1951381600AC73F4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE6F181819514CBA00AC73F4 /* Two Factor Authenticator iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F182119514CBA00AC73F4 /* AppDelegate.h */,
+				AE6F182219514CBA00AC73F4 /* AppDelegate.m */,
+				AE6F182419514CBA00AC73F4 /* Main_iPhone.storyboard */,
+				AE6F182719514CBA00AC73F4 /* Main_iPad.storyboard */,
+				AE6F182A19514CBA00AC73F4 /* ViewController.h */,
+				AE6F182B19514CBA00AC73F4 /* ViewController.m */,
+				AE6F182D19514CBA00AC73F4 /* Images.xcassets */,
+				AE6F181919514CBA00AC73F4 /* Supporting Files */,
+			);
+			path = "Two Factor Authenticator iOS";
+			sourceTree = "<group>";
+		};
+		AE6F181919514CBA00AC73F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F181A19514CBA00AC73F4 /* Two Factor Authenticator iOS-Info.plist */,
+				AE6F181B19514CBA00AC73F4 /* InfoPlist.strings */,
+				AE6F181E19514CBA00AC73F4 /* main.m */,
+				AE6F182019514CBA00AC73F4 /* Two Factor Authenticator iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE6F183919514CBA00AC73F4 /* Two Factor Authenticator iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F183F19514CBA00AC73F4 /* Two_Factor_Authenticator_iOSTests.m */,
+				AE6F183A19514CBA00AC73F4 /* Supporting Files */,
+			);
+			path = "Two Factor Authenticator iOSTests";
+			sourceTree = "<group>";
+		};
+		AE6F183A19514CBA00AC73F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F183B19514CBA00AC73F4 /* Two Factor Authenticator iOSTests-Info.plist */,
+				AE6F183C19514CBA00AC73F4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE6F184719514CCC00AC73F4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AE2C72E51952873500765A76 /* quirc */,
+				AE6F1850195168A000AC73F4 /* HOTPGenerator.h */,
+				AE6F1851195168A000AC73F4 /* HOTPGenerator.m */,
+				AE6F1852195168A000AC73F4 /* OTPGenerator.h */,
+				AE6F1853195168A000AC73F4 /* OTPGenerator.m */,
+				AE6F1854195168A000AC73F4 /* TOTPGenerator.h */,
+				AE6F1855195168A000AC73F4 /* TOTPGenerator.m */,
+				AE6F18481951582300AC73F4 /* TokenEntry.h */,
+				AE6F184C19515ECF00AC73F4 /* NSData+Additions.h */,
+				AE6F184D19515ECF00AC73F4 /* NSData+Additions.m */,
+				AE6F18491951582300AC73F4 /* TokenEntry.m */,
+				AE2C72F41952ACAE00765A76 /* TokenStorage.h */,
+				AE2C72F51952ACAE00765A76 /* TokenStorage.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE6F17D21951381500AC73F4 /* Two Factor Authenticator Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE6F18021951381600AC73F4 /* Build configuration list for PBXNativeTarget "Two Factor Authenticator Mac" */;
+			buildPhases = (
+				AE6F17CF1951381500AC73F4 /* Sources */,
+				AE6F17D01951381500AC73F4 /* Frameworks */,
+				AE6F17D11951381500AC73F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Two Factor Authenticator Mac";
+			productName = "Two Factor Authenticator Mac";
+			productReference = AE6F17D31951381500AC73F4 /* Two Factor Authenticator Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE6F17F31951381600AC73F4 /* Two Factor Authenticator MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE6F18051951381600AC73F4 /* Build configuration list for PBXNativeTarget "Two Factor Authenticator MacTests" */;
+			buildPhases = (
+				AE6F17F01951381600AC73F4 /* Sources */,
+				AE6F17F11951381600AC73F4 /* Frameworks */,
+				AE6F17F21951381600AC73F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE6F17F91951381600AC73F4 /* PBXTargetDependency */,
+			);
+			name = "Two Factor Authenticator MacTests";
+			productName = "Two Factor Authenticator MacTests";
+			productReference = AE6F17F41951381600AC73F4 /* Two Factor Authenticator MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE6F181019514CB900AC73F4 /* Two Factor Authenticator iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE6F184119514CBA00AC73F4 /* Build configuration list for PBXNativeTarget "Two Factor Authenticator iOS" */;
+			buildPhases = (
+				AE6F180D19514CB900AC73F4 /* Sources */,
+				AE6F180E19514CB900AC73F4 /* Frameworks */,
+				AE6F180F19514CB900AC73F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Two Factor Authenticator iOS";
+			productName = "Two Factor Authenticator iOS";
+			productReference = AE6F181119514CB900AC73F4 /* Two Factor Authenticator iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE6F183219514CBA00AC73F4 /* Two Factor Authenticator iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE6F184419514CBA00AC73F4 /* Build configuration list for PBXNativeTarget "Two Factor Authenticator iOSTests" */;
+			buildPhases = (
+				AE6F182F19514CBA00AC73F4 /* Sources */,
+				AE6F183019514CBA00AC73F4 /* Frameworks */,
+				AE6F183119514CBA00AC73F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE6F183819514CBA00AC73F4 /* PBXTargetDependency */,
+			);
+			name = "Two Factor Authenticator iOSTests";
+			productName = "Two Factor Authenticator iOSTests";
+			productReference = AE6F183319514CBA00AC73F4 /* Two Factor Authenticator iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		AE6F17C9195137F300AC73F4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					AE6F17F31951381600AC73F4 = {
+						TestTargetID = AE6F17D21951381500AC73F4;
+					};
+					AE6F183219514CBA00AC73F4 = {
+						TestTargetID = AE6F17D21951381500AC73F4;
+					};
+				};
 			};
 			buildConfigurationList = AE6F17CC195137F300AC73F4 /* Build configuration list for PBXProject "Two Factor Authenticator" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -27,14 +464,204 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = AE6F17C8195137F300AC73F4;
+			productRefGroup = AE6F17D41951381500AC73F4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				AE6F17D21951381500AC73F4 /* Two Factor Authenticator Mac */,
+				AE6F17F31951381600AC73F4 /* Two Factor Authenticator MacTests */,
+				AE6F181019514CB900AC73F4 /* Two Factor Authenticator iOS */,
+				AE6F183219514CBA00AC73F4 /* Two Factor Authenticator iOSTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE6F17D11951381500AC73F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6F180C1951413800AC73F4 /* TokenViewController.xib in Resources */,
+				AE6F17E11951381500AC73F4 /* InfoPlist.strings in Resources */,
+				AE6F17EF1951381500AC73F4 /* Images.xcassets in Resources */,
+				AE6F17E71951381500AC73F4 /* Credits.rtf in Resources */,
+				AE6F17ED1951381500AC73F4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6F17F21951381600AC73F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6F17FF1951381600AC73F4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6F180F19514CB900AC73F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6F182919514CBA00AC73F4 /* Main_iPad.storyboard in Resources */,
+				AE6F182E19514CBA00AC73F4 /* Images.xcassets in Resources */,
+				AE6F182619514CBA00AC73F4 /* Main_iPhone.storyboard in Resources */,
+				AE6F181D19514CBA00AC73F4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6F183119514CBA00AC73F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6F183E19514CBA00AC73F4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE6F17CF1951381500AC73F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE2C72F21952874B00765A76 /* version_db.c in Sources */,
+				AE6F185A195168A000AC73F4 /* TOTPGenerator.m in Sources */,
+				AE2C72F01952874B00765A76 /* quirc.c in Sources */,
+				AE2C73001952AFB200765A76 /* ScreenCaptureWindowController.m in Sources */,
+				AE6F1856195168A000AC73F4 /* HOTPGenerator.m in Sources */,
+				AE2C72F61952ACAE00765A76 /* TokenStorage.m in Sources */,
+				AE6F17EA1951381500AC73F4 /* AppDelegate.m in Sources */,
+				AE2C72EE1952874B00765A76 /* identify.c in Sources */,
+				AE2C73011952AFB200765A76 /* TransparentWindow.m in Sources */,
+				AE6F17E31951381500AC73F4 /* main.m in Sources */,
+				AE2C72EC1952874B00765A76 /* decode.c in Sources */,
+				AE2C72FF1952AFB200765A76 /* RectSelectionView.m in Sources */,
+				AE6F184E19515ECF00AC73F4 /* NSData+Additions.m in Sources */,
+				AE6F184A1951582300AC73F4 /* TokenEntry.m in Sources */,
+				AE6F180B1951413800AC73F4 /* TokenViewController.m in Sources */,
+				AE6F1858195168A000AC73F4 /* OTPGenerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6F17F01951381600AC73F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6F18011951381600AC73F4 /* Two_Factor_Authenticator_MacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6F180D19514CB900AC73F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE2C72F31952874B00765A76 /* version_db.c in Sources */,
+				AE6F185B195168A000AC73F4 /* TOTPGenerator.m in Sources */,
+				AE2C72F11952874B00765A76 /* quirc.c in Sources */,
+				AE6F1857195168A000AC73F4 /* HOTPGenerator.m in Sources */,
+				AE2C72F71952ACAE00765A76 /* TokenStorage.m in Sources */,
+				AE6F182C19514CBA00AC73F4 /* ViewController.m in Sources */,
+				AE2C72EF1952874B00765A76 /* identify.c in Sources */,
+				AE6F182319514CBA00AC73F4 /* AppDelegate.m in Sources */,
+				AE2C72ED1952874B00765A76 /* decode.c in Sources */,
+				AE6F184F19515ECF00AC73F4 /* NSData+Additions.m in Sources */,
+				AE6F184B1951582300AC73F4 /* TokenEntry.m in Sources */,
+				AE6F181F19514CBA00AC73F4 /* main.m in Sources */,
+				AE6F1859195168A000AC73F4 /* OTPGenerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6F182F19514CBA00AC73F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6F184019514CBA00AC73F4 /* Two_Factor_Authenticator_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE6F17F91951381600AC73F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE6F17D21951381500AC73F4 /* Two Factor Authenticator Mac */;
+			targetProxy = AE6F17F81951381600AC73F4 /* PBXContainerItemProxy */;
+		};
+		AE6F183819514CBA00AC73F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE6F181019514CB900AC73F4 /* Two Factor Authenticator iOS */;
+			targetProxy = AE6F183719514CBA00AC73F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE6F17DF1951381500AC73F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE6F17E01951381500AC73F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AE6F17E51951381500AC73F4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE6F17E61951381500AC73F4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		AE6F17EB1951381500AC73F4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE6F17EC1951381500AC73F4 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		AE6F17FD1951381600AC73F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE6F17FE1951381600AC73F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AE6F181B19514CBA00AC73F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE6F181C19514CBA00AC73F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AE6F182419514CBA00AC73F4 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE6F182519514CBA00AC73F4 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		AE6F182719514CBA00AC73F4 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE6F182819514CBA00AC73F4 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		AE6F183C19514CBA00AC73F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE6F183D19514CBA00AC73F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AE6F17CD195137F300AC73F4 /* Debug */ = {
@@ -49,6 +676,370 @@
 			};
 			name = Release;
 		};
+		AE6F18031951381600AC73F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Two Factor Authenticator Mac/Two Factor Authenticator Mac-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Two Factor Authenticator Mac/Two Factor Authenticator Mac-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AE6F18041951381600AC73F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Two Factor Authenticator Mac/Two Factor Authenticator Mac-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Two Factor Authenticator Mac/Two Factor Authenticator Mac-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AE6F18061951381600AC73F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Two Factor Authenticator Mac.app/Contents/MacOS/Two Factor Authenticator Mac";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Two Factor Authenticator Mac/Two Factor Authenticator Mac-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Two Factor Authenticator MacTests/Two Factor Authenticator MacTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AE6F18071951381600AC73F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Two Factor Authenticator Mac.app/Contents/MacOS/Two Factor Authenticator Mac";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Two Factor Authenticator Mac/Two Factor Authenticator Mac-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Two Factor Authenticator MacTests/Two Factor Authenticator MacTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		AE6F184219514CBA00AC73F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Two Factor Authenticator iOS/Two Factor Authenticator iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Two Factor Authenticator iOS/Two Factor Authenticator iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AE6F184319514CBA00AC73F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Two Factor Authenticator iOS/Two Factor Authenticator iOS-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Two Factor Authenticator iOS/Two Factor Authenticator iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AE6F184519514CBA00AC73F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Two Factor Authenticator Mac.app/Contents/MacOS/Two Factor Authenticator Mac";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Two Factor Authenticator iOS/Two Factor Authenticator iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Two Factor Authenticator iOSTests/Two Factor Authenticator iOSTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AE6F184619514CBA00AC73F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Two Factor Authenticator Mac.app/Contents/MacOS/Two Factor Authenticator Mac";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Two Factor Authenticator iOS/Two Factor Authenticator iOS-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Two Factor Authenticator iOSTests/Two Factor Authenticator iOSTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -57,6 +1048,42 @@
 			buildConfigurations = (
 				AE6F17CD195137F300AC73F4 /* Debug */,
 				AE6F17CE195137F300AC73F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE6F18021951381600AC73F4 /* Build configuration list for PBXNativeTarget "Two Factor Authenticator Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6F18031951381600AC73F4 /* Debug */,
+				AE6F18041951381600AC73F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE6F18051951381600AC73F4 /* Build configuration list for PBXNativeTarget "Two Factor Authenticator MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6F18061951381600AC73F4 /* Debug */,
+				AE6F18071951381600AC73F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE6F184119514CBA00AC73F4 /* Build configuration list for PBXNativeTarget "Two Factor Authenticator iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6F184219514CBA00AC73F4 /* Debug */,
+				AE6F184319514CBA00AC73F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE6F184419514CBA00AC73F4 /* Build configuration list for PBXNativeTarget "Two Factor Authenticator iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6F184519514CBA00AC73F4 /* Debug */,
+				AE6F184619514CBA00AC73F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
